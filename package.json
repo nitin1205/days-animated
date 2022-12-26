@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "imports-loader": "^4.0.1",
     "vite": "^4.0.0"
   }
 }
