@@ -8,6 +8,11 @@ body {
   background: hsl(80, 10% , 10%);
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+  position: relative;
+}
+
+main {
+  position: absolute;
 }
 
 #logo{
@@ -297,4 +302,28 @@ body.hide{
   bottom: 5%;
   color: white;
   opacity: 0.2;
+}
+
+.swipe {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+}
+
+.swipe1 {
+  background: hsl(295, 85%, 54%);
+  z-index: 5;
+}
+
+.swipe2 {
+  background: hsl(238, 80%, 60%);
+  z-index: 4;
+}
+
+.swipe3 {
+  background: hsl(32, 78%, 59%);
+  z-index: 3;
 }
